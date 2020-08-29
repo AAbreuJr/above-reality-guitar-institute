@@ -2,11 +2,48 @@
   margin-left: 15px;
 }
 
-.card .card-content .card-title {
-  margin-bottom: 10px;
+body {
+  background-color: #697987;
 }
 
 #search-row form {
   padding-top: 20px;
 }
 
+.card-title {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 115px;
+}
+
+.nav-item {
+  background: #31616D;
+  padding: 10px;
+  color: #CFF6FF;
+}
+
+.card:first-child {
+  border-radius: 0;
+}
+
+#include-card {
+  height: 40rem;
+  max-width: 20rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+#intro-card {
+  margin-top: 1rem;
+}
+
+#contact-card {
+  height: 40rem;
+  max-width: 20rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  font-size: 4rem;
+  text-align: center;
+}
