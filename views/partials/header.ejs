@@ -20,21 +20,21 @@
     </header>
 
     <% if (user) { %>
-    <ul class="nav nav-pills nav-fill"> 
-        <li class="nav-item">
-            <a class="nav-link" href="#">LESSONS</a>
+    <ul class='nav nav-pills nav-fill'> 
+        <li class='nav-item'>
+            <a class='nav-link' href='/lessons'>LESSONS</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href='' onclick="window.open('http://nashvillenumbersystem.surge.sh/')">NASHVILLE</a>
+        <li class='nav-item'>
+            <a class='nav-link' onclick="window.open('http://nashvillenumbersystem.surge.sh/')">NASHVILLE</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">GALLERY</a>
+        <li class='nav-item'>
+            <a class='nav-link' href='/views/gallery'>GALLERY</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">MESSAGE BOARD</a>
+        <li class='nav-item'>
+            <a class='nav-link' href='/views/message-board'>MESSAGE BOARD</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/auth/logout">LOG OUT</a>
+        <li class='nav-item'>
+            <a class='nav-link' href='/auth/logout'>LOG OUT</a>
         </li>
     </ul>
     <% } else { %>

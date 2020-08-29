@@ -29,21 +29,28 @@ body {
 #include-card {
   height: 40rem;
   max-width: 20rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-left: 2rem;
   font-size: 4rem;
   text-align: center;
+  border-radius: 0;
 }
 
 #intro-card {
-  margin-top: 1rem;
+  margin-top: 2rem;
+  border-radius: 0;
 }
 
 #contact-card {
   height: 40rem;
   max-width: 20rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   margin-right: 2rem;
   font-size: 4rem;
   text-align: center;
+  border-radius: 0;
+}
+
+li { 
+  cursor: pointer; 
 }
