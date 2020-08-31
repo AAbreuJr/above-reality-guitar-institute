@@ -1,7 +1,7 @@
-var router = require('express').Router();
+var express = require('express');
+var router = express.Router();
 
-router.get('/', function (req, res) {
-  res.render('index', { title: 'Home Page', user: req.user ? req.user : null });
-});
+router.get('/', function (req, res, next) {
+  res.redirect('/lessons')
 
 module.exports = router;

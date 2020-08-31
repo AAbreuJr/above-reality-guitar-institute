@@ -4,6 +4,8 @@
 
 body {
   background-color: #697987;
+  height: 100%;
+  width: 100%;
 }
 
 #search-row form {
@@ -50,6 +52,37 @@ body {
   text-align: center;
   border-radius: 0;
 }
+
+#chapter-card {
+  height: 40rem;
+  max-width: 20rem;
+  margin-left: 2rem;
+  font-size: 4rem;
+  text-align: center;
+  border-radius: 0;
+}
+
+#lesson-video {
+  border-radius: 0;
+}
+
+#lesson-info{
+  height: 40rem;
+  max-width: 20rem;
+  margin-right: 2rem;
+  font-size: 4rem;
+  text-align: center;
+  border-radius: 0;
+}
+
+.progress {
+  width: 60%;
+  max-width: 100rem;
+  justify-content: center;
+  margin: auto;
+  margin-top: .5rem;
+}
+
 
 li { 
   cursor: pointer; 
