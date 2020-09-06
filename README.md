@@ -7,7 +7,7 @@
 ##
 ##
 ## To go to the website:
-### Click [here](#) to go to the website.
+### Click [here](https://aboverealityguitarinstitute.herokuapp.com/) to go to the website.
 ##
 ##
 ## Motivation:
@@ -15,8 +15,9 @@
 ##
 ##
 ##
+## [Go to Trello Board](https://trello.com/b/ulWi0kxS/above-reality-guitar-institute)
 
-## Trello Board:
+## Trello Board: 
 ![Trello](https://i.imgur.com/2QKTPdD.png)
 
 ## Entity Relationship Diagrams (ERD):
@@ -96,3 +97,6 @@
 - Get an email when instructor responds to your message in the message board
 - Like button on message board
 - More videos
+
+## Credits: 
+Shout out to my best friend, Rebecca Roberts, for the logo! Contact her for all your creative needs! @rsquarepro on Instagram!
